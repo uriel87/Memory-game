@@ -9,7 +9,9 @@
   },
   "author": "Uriel Chechique",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "angular-animate": "^1.6.7"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
