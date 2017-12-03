@@ -3,20 +3,27 @@
   "version": "1.0.0",
   "description": "memory game",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Uriel Chechique",
-  "license": "ISC",
   "dependencies": {
-    "angular-animate": "^1.6.7"
+    "angular": "^1.6.5",
+    "angular-animate": "^1.6.6",
+    "angular-cookies": "^1.6.5",
+    "angular-file-upload": "^2.5.0",
+    "angular-route": "^1.6.5",
+    "angular-ui-router": "^1.0.3",
+    "angularjs-scope.safeapply": "^0.0.1",
+    "bulma": "^0.5.1",
+    "express": "^4.16.2"
   },
   "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uriel87/memory-game.git"
   },
+  "author": "Uriel Chechique",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/uriel87/memory-game/issues"
   },
