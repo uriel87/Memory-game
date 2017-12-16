@@ -49,7 +49,7 @@
   animation: changeHideCard 1.5s;
   transform-style: flat;
   transition: 0.4s 0.3s;
-  box-shadow: 0px 0px 35px #ff0000;
+  box-shadow: 0 0 35px #ff0000;
 }
 
 .showCard {
@@ -57,6 +57,12 @@
   transform-style: flat;
   transition: 0.4s 0.3s;
   box-shadow: none;
+
+  -moz-transform: rotatey(180deg);
+  -webkit-transform: rotatey(180deg);
+  -o-transform: rotatey(180deg);
+  -ms-transform: rotatey(180deg);
+  transform: rotatey(180deg);
 }
 
 .Dialog {
